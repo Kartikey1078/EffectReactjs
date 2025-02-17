@@ -4,7 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import CounterEffect from './Components/CounterEffect'
 import ApiuseEffect from './Components/ApiuseEffect'
-import Size from './Components/size'
+import Size from './Components/Size'
 import Todo from './Components/Todo'
 function App() {
   useEffect(() => {
