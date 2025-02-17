@@ -1,0 +1,34 @@
+/* Size.css */
+.size-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: #f0f0f0;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.size-text {
+    font-size: 1.7rem;
+    color: #333;
+    margin: 10px 0;
+}
+h3{
+    margin: 9px !important;
+}
+
+@media (max-width: 768px) {
+    .size-text {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .size-text {
+        font-size: 1.2rem;
+    }
+}
